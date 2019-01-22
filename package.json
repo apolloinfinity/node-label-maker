@@ -1,0 +1,38 @@
+{
+  "name": "label-maker",
+  "version": "1.0.0",
+  "description": "Node API backend to build labels",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apolloinfinity/node-label-maker.git"
+  },
+  "keywords": [
+    "Node.js",
+    "API",
+    "Backend",
+    "JavaScript"
+  ],
+  "author": "Javier Ramirez Roa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apolloinfinity/node-label-maker/issues"
+  },
+  "homepage": "https://github.com/apolloinfinity/node-label-maker#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "moment": "^2.24.0",
+    "mongodb": "^3.1.12",
+    "pdfkit": "^0.8.3",
+    "xmlbuilder": "^10.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "nodemon": "^1.18.9"
+  }
+}
