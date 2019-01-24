@@ -6,7 +6,7 @@ const moment = require("moment");
 
 const rootDir = require("../utils/path");
 
-exports.printLabels = async (req, res) => {
+exports.createLabel = async (req, res) => {
 
     try {
         res.send('<h1>HEllo</h1>');
