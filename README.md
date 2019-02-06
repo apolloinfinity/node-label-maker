@@ -1,7 +1,8 @@
-# Node Label Maker
+# Custom Label Maker
+Label Maker built with Node.js
+## Description
+This is a stripped down version of a Backend API I created at work. There will be no DB for this project because for demonstration purposes, it is not required.
 
-This is a small example of the API I designed at work. It has 2 endpoints. 
-
-I'll update this Readme more as I keep building it. 
-
-
+## Getting Started
+### Dependencies
+You will need the latest version of Node.js to run this program. 
