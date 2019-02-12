@@ -1,8 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const cors = require("cors");
-
-const mongoConnect = require("./utils/database").mongoConnect;
+const cors = require("cors")
 
 const app = express();
 
@@ -14,7 +12,4 @@ app.use("/jobs", require("./routes/labels"));
 
 const port = process.env.PORT || 5000;
 
-mongoConnect(() => {
-    app.listen(port, () => console.log(`Listening on port ${port}`));
-
-});
+app.listen(port, () => console.log(`Listening on port ${port}`));
