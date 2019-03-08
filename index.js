@@ -8,7 +8,9 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use("/jobs", require("./routes/labels"));
+app.use("/qr", require("./routes/barcode"))
+app.use("/api", require("./routes/labels"));
+
 
 const port = process.env.PORT || 5000;
 
