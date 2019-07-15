@@ -16,12 +16,6 @@ exports.print = async (req, res) => {
 			size: [ 200, 200 ]
 		});
 
-		// function label(img) {
-		// 	doc.pipe(fs.createWriteStream(saveFolder));
-		// 	doc.image(img, 5, 5, { width: 190 });
-		// 	doc.end();
-		// }
-
 		label.createLabel(imgData, saveFolder, doc);
 
 		res.status(201);

@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-	res.send('Hello');
+  res.send('Hello');
 });
 app.post('/api', print.print);
 
